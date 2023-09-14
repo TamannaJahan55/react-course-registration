@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "course_img": "https://i.ibb.co/D8HMKhs/Rectangle-2-2.png",
+      "course_name": "Introduction to C Programming",
+      "course_details": "Learn the fundamentals of C programming, including variables, control structures, and functions.",
+      "price": 15000,
+      "credit": 1
+    },
+    {
+      "id": 2,
+      "course_img": "https://i.ibb.co/J7ktcfv/Rectangle-2-3.png",
+      "course_name": "Introduction to Algorithms",
+      "course_details": "Explore algorithms and data structures, including sorting, searching, and algorithm analysis.",
+      "price": 25000,
+      "credit": 2
+    },
+    {
+      "id": 3,
+      "course_img": "https://i.ibb.co/nf3tvqQ/Rectangle-2-4.png",
+      "course_name": "Introduction to C++ for DSA",
+      "course_details": "Learn C++ programming and data structures for competitive programming and data science applications.",
+      "price": 10000,
+      "credit": 10
+    },
+    {
+      "id": 4,
+      "course_img": "https://i.ibb.co/jfzrtTg/Rectangle-3.png",
+      "course_name": "Basic Data Structures",
+      "course_details": "Master the fundamentals of data structures, including arrays, linked lists, and trees.",
+      "price": 35000,
+      "credit": 5
+    },
+    {
+      "id": 5,
+      "course_img": "https://i.ibb.co/LN32h4v/Rectangle-2.png",
+      "course_name": "Introduction to OOP Python",
+      "course_details": "Learn object-oriented programming concepts in Python, including classes and inheritance.",
+      "price": 19000,
+      "credit": 5
+    },
+    {
+      "id": 6,
+      "course_img": "https://i.ibb.co/9w0ZJrr/Rectangle-2-5.png",
+      "course_name": "Software Engineering",
+      "course_details": "Explore software development methodologies, project management, and quality assurance.",
+      "price": 23000,
+      "credit": 2
+    },
+    {
+      "id": 7,
+      "course_img": "https://i.ibb.co/JxJxPK3/Rectangle-3-1.png",
+      "course_name": "AWS, Cloud Computing",
+      "course_details": "Master Amazon Web Services (AWS), cloud computing services and solutions.",
+      "price": 35000,
+      "credit": 5
+    },
+    {
+      "id": 8,
+      "course_img": "https://i.ibb.co/jrkp5YJ/Rectangle-2-1.png",
+      "course_name": "Database (MySQL)",
+      "course_details": "Discover MySQL database management, design, and SQL query optimization.",
+      "price": 19000,
+      "credit": 5
+    },
+    {
+      "id": 9,
+      "course_img": "https://i.ibb.co/wc6dWSN/Rectangle-2-6.png",
+      "course_name": "Problem-Solving Part",
+      "course_details": "Enhance your problem-solving skills through coding challenges and algorithmic thinking.",
+      "price": 23000,
+      "credit": 2
+    }
+  ]
+  
