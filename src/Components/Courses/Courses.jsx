@@ -10,8 +10,8 @@ const Courses = () => {
         .then(data => setCourses(data));
     }, [])
     return (
-        <div>
-            
+        <div className="md:w-3/4">
+            <h1 className="text-4xl">Courses: {courses.length}</h1>
         </div>
     );
 };
