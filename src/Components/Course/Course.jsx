@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { FiBookOpen } from 'react-icons/fi';
 import { FiDollarSign } from 'react-icons/fi';
 
-const Course = ({course}) => {
+const Course = ({course, handleAddToRegister}) => {
     const {course_name, course_img, course_details, price, credit} = course;
     return (
             <div className='w-72 h-full p-2 rounded-xl bg-white'>
@@ -19,13 +19,14 @@ const Course = ({course}) => {
                     <span>Credit: {credit}hr</span>
                 </div>
             </div>
-            <button className='w-full px-5 py-3 bg-blue-600 text-white text-center mt-5 rounded-xl'>Select</button>
+            <button onClick={() =>handleAddToRegister(course)} className='w-full px-5 py-3 bg-blue-600 text-white text-center mt-5 rounded-xl'>Select</button>
         </div>
     );
 };
 
 Course.propTypes = {
-    course: PropTypes.object.isRequired
+    course: PropTypes.object.isRequired,
+    handleAddToRegister: PropTypes.func
 }
 
 export default Course;
