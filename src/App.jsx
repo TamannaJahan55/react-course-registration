@@ -9,9 +9,9 @@ function App() {
     <>
       
       <Header></Header>
-      <div className='md:flex'>
-      <Courses></Courses>
-      <Register></Register>
+      <div className='md:flex mx-4 gap-3 bg-slate-200'>
+            <Courses></Courses>
+            <Register></Register>
       </div>
       
     </>

@@ -51,7 +51,7 @@
       "id": 7,
       "course_img": "https://i.ibb.co/JxJxPK3/Rectangle-3-1.png",
       "course_name": "AWS, Cloud Computing",
-      "course_details": "Master Amazon Web Services (AWS), cloud computing services and solutions.",
+      "course_details": "Master Amazon Web Services (AWS), cloud computing services including database, analytics and solutions.",
       "price": 35000,
       "credit": 5
     },
@@ -59,7 +59,7 @@
       "id": 8,
       "course_img": "https://i.ibb.co/jrkp5YJ/Rectangle-2-1.png",
       "course_name": "Database (MySQL)",
-      "course_details": "Discover MySQL database management, design, and SQL query optimization.",
+      "course_details": "Discover MySQL database management, design, relational database management and SQL query optimization.",
       "price": 19000,
       "credit": 5
     },
