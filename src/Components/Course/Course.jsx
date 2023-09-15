@@ -16,7 +16,7 @@ const Course = ({course, handleAddToRegister}) => {
                 </div>
                 <div className='flex gap-2'>
                     <button><FiBookOpen></FiBookOpen></button>
-                    <span>Credit: {credit}hr</span>
+                    <p>Credit: <span>{credit}</span>hr</p>
                 </div>
             </div>
             <button onClick={() =>handleAddToRegister(course)} className='w-full px-5 py-3 bg-blue-600 text-white text-center mt-5 rounded-xl'>Select</button>
