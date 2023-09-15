@@ -8,18 +8,20 @@ function App() {
   const [selectedCourses, setSelectedCourses] = useState([]);
   const [totalCreditHour, setTotalCreditHour] = useState(0);
   const [remainingCreditHour, setRemainingCreditHour] = useState(0);
-  
+  const [totalPrice, setTotalPrice] = useState(0);
 
   const handleAddToRegister = course =>{
     const isExist = selectedCourses.find((item) => item.id == course.id);
 
     let totalCreditHour = course.credit;
+    let totalPrice = course.price;
 
     if(isExist){
       return alert('Already registered');
     }else{
       selectedCourses.forEach(item => {
         totalCreditHour = totalCreditHour + item.credit;
+        totalPrice = totalPrice + item.price;
       });
       const remainingCreditHour = 20 - totalCreditHour;
 
@@ -28,6 +30,7 @@ function App() {
       }else{
         setRemainingCreditHour(remainingCreditHour);
         setTotalCreditHour(totalCreditHour);
+        setTotalPrice(totalPrice);
         setSelectedCourses([...selectedCourses, course]);
       }
     }
@@ -42,6 +45,7 @@ function App() {
             <Register selectedCourses={selectedCourses}
                       totalCreditHour={totalCreditHour}
                       remainingCreditHour={remainingCreditHour}
+                      totalPrice={totalPrice}
             ></Register>
       </div>
       
