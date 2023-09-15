@@ -12,9 +12,9 @@ const Register = ({selectedCourses, remainingCreditHour, totalCreditHour, totalP
                 <li className='list-none text-base font-normal text-gray-500 mb-2' key={course.id}>{course.id}. {course.course_name}</li>))
             }
             <hr />
-            <h2 className='text-base font-medium text-gray-500 mt-3 mb-3'>Total Credit Hour: {totalCreditHour}</h2>
+            <h2 className='text-base font-medium text-gray-700 mt-3 mb-3'>Total Credit Hour: {totalCreditHour}</h2>
             <hr />
-            <h2 className='text-base font-medium text-gray-500 mt-3 mb-3'>Total Price: {totalPrice} USD</h2>
+            <h2 className='text-base font-medium text-gray-700 mt-3 mb-3'>Total Price: {totalPrice} USD</h2>
             </div>
         </div>
     );
