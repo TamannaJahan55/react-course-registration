@@ -32,7 +32,7 @@ function App() {
       });
 
       if(totalCreditHour > 20){
-        toast.info('Total credit hour limit is 20',{
+        toast.info('Total credit hour limit is 20. Wait for next enrollment.',{
           position: 'top-right',
           theme: 'colored'
         });
@@ -49,7 +49,7 @@ function App() {
     <>
       
       <Header></Header>
-      <div className='md:flex mx-4 bg-slate-200'>
+      <div className='flex flex-col mx-4 md:flex-col md:mx-4 lg:flex-row lg:mx-4 bg-slate-200'>
             <Courses handleAddToRegister={handleAddToRegister}></Courses>
             <Register selectedCourses={selectedCourses}
                       totalCreditHour={totalCreditHour}

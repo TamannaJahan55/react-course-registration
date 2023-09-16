@@ -2,7 +2,8 @@ import PropTypes from 'prop-types';
 
 const Register = ({selectedCourses, remainingCreditHour, totalCreditHour, totalPrice}) => {
     return (
-        <div className="md:w-1/4 my-5 mr-4">
+
+        <div className="my-5 w-72 ml-8 md:w-72 md:ml-52 lg:w-1/4 lg:ml-1 lg:mr-4">
             <div className='bg-white p-4'>
             <h2 className='text-lg font-bold text-blue-600 mb-4'>Credit Hour Remaining {remainingCreditHour} hr</h2>
             <hr />

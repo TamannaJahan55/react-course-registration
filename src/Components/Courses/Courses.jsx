@@ -12,7 +12,8 @@ const Courses = ({handleAddToRegister}) => {
         .then(data => setCourses(data));
     }, [])
     return (
-        <div className="md:w-3/4 grid grid-cols-3 gap-7 mx-5 my-5">
+
+        <div className="mx-5 my-5 grid grid-cols-1 gap-3 md:grid md:grid-cols-2 md:gap-4 lg:w-3/4 lg:grid lg:grid-cols-3 lg:gap-7">
             {
                 courses.map(course => <Course 
                     key={course.id} 
